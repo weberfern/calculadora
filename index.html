@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Wellington</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main id="container">
+    <section id="img">
+      <img src="assets/img/undraw_medical_care_movn.svg">
+    </section>
+
+    <section id="calculator">
+      <form id="form">
+        <h1 id="title">Calculadora de Amoxicilina</h1>
+
+        <div class="input-box">
+          <label for="weight">Peso do Paciente</label>
+          <div class="input-field">
+            <i class="fa-solid fa-weight-hanging"></i>
+            <input type="number" id="weight" required">
+            <span>Kg</span>
+          </div>
+        </div>
+
+        <button id="calculate">Calcular</button>
+      </form>
+
+      <div id="infos" class="hidden">
+        <div id="result">
+          <div id="dose">
+            <div class="doses">
+              <div class="dose1">
+                <span id="value1"></span>
+                <span id="dose1">Dose (ml)</span>
+              </div>
+              <div class="dose2">
+                <span id="value2"></span>
+                <span id="dose2">Total 7 dias (ml)</span>
+              </div>
+              <div class="dose3">
+                <span id="value3"></span>
+                <span id="dose3">Frascos</span>
+              </div>
+            </div>
+          </div>
+          <div id="description">
+            <span></i></span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
